@@ -1,0 +1,134 @@
+/*AJUSTA LA TABLA A LA VENTANA DEL NAVEGADOR */
+
+  
+ 
+
+    .table-sm td, .table-sm th {
+        padding: 0.4rem; /* Ajusta el espaciado interno de las celdas */
+        font-size: 0.8rem; /* Ajusta el tamaño de la fuente */
+    }
+
+   /*ICONOS PARA LA PAGINA DE INICIO*/
+
+   .icon-img {
+    max-width: 48px; /* Ajusta según tu necesidad */
+    max-height: 48px; /* Ajusta según tu necesidad */
+    display: block; /* Evita espacio adicional por debajo de la imagen */
+    margin: auto; /* Centra la imagen dentro de la celda */
+}
+/* Agrega estilos para el formulario de búsqueda INICIO */
+.search-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+
+
+/* Agrega estilos para resaltar los resultados de búsqueda  INICIO*/
+.table-search-result {
+    background-color: #ffcccb; /* Cambia el color de fondo según tus preferencias */
+    font-weight: bold;
+}
+
+
+/* Estilos para el logotipo sin navbar */
+.logo-profesional {
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 8px; /* Margen alrededor del logotipo */
+    
+    /* Alinea el logotipo a la derecha utilizando float */
+    float: right;
+}
+.sticky-header th {
+        position: sticky;
+        top: 0;
+        background-color: #ffffff; /* Fondo blanco para resaltar las celdas fijas */
+        z-index: 2; /* Asegura que las celdas fijas estén sobre las demás */
+    }
+
+/* Estilo para el título de la vista */
+h1 {
+    text-align: left;
+    color: #faf16f; /* Color azul contable */
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif; /* Selecciona una fuente comúnmente utilizada en contabilidad financiera */
+    font-size: 24px; /* Tamaño del texto reducido */
+    font-weight: bold; /* Negrita */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    padding-bottom: 5px; /* Espaciado inferior */
+}
+
+
+/* Estilo para centrar los botones */
+.container {
+    text-align: center;
+
+    
+}
+
+/* Estilo para los botones */
+.btn {
+    margin: 5px;
+}
+
+/* Estilo para centrar las celdas en las columnas específicas */
+.table td:nth-child(5),
+.table td:nth-child(6),
+.table td:nth-child(7),
+.table td:nth-child(13),
+.table td:nth-child(14) {
+    text-align: center;
+}
+/* Estilo para las filas al pasar el ratón */
+.table tbody tr:hover {
+    background-color: #2b2424;
+}
+
+/* Estilo para los números en el lado derecho */
+.numero-derecho {
+    position: absolute;
+    right: 10px; /* Ajusta el valor según sea necesario */
+}
+
+/* Estilo para centrar la tabla en el contenedor */
+.container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo para centrar los botones */
+.container {
+    text-align: center;
+}
+
+/* Estilo para los botones */
+.btn {
+    margin: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    cursor: pointer;
+}
+
+th:hover {
+    background-color: #f5f5f5;
+}
+
+
+
+
+
